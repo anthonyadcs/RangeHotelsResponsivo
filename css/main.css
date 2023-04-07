@@ -3,8 +3,6 @@
 html{
     font-family: sans-serif;
 }
-
-
 body{
     color:rgb(49, 5, 89);
 }
@@ -67,16 +65,6 @@ h1, h2, h3, h4, h5, h6{
 
 .navigation-ul li a:hover{
     background-color: rgb(80,14, 142);
-}
-
-.icon-play{
-    height: 5em;
-    display: none;
-}
-
-.icon-play img{
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .top-content{
@@ -151,7 +139,7 @@ footer .footer-nav{
 footer .footer-nav li{
     list-style: none;
     display: inline-block;
-    margin-right: 2em;
+    margin-right: 1em;
 }
 
 footer .footer-nav li span{
@@ -214,16 +202,6 @@ footer .footer-text{
         clear: both;
     }
 
-    .icon-play{
-        height: 5em;
-        display: block;
-    }
-
-    .icon-play img{
-        max-width: 100%;
-        max-height: 100%;
-    }
-
     .top-content .top-content-title, .top-content .top-content-subtitle{
         color: white;
     }
@@ -264,7 +242,7 @@ footer .footer-text{
     .top-content{
         background-image: url(../images/bg_topo_1600x1374.jpg);
         background-position: center top;
-        padding: 17em 20em 10em;
+        padding: 20em 20em 10em;
         height: 45em;
     }
 
